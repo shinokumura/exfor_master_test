@@ -2,7 +2,7 @@
 
 name: Manual Update
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
