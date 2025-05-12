@@ -51,7 +51,7 @@ jobs:
         id: runpy
         env: 
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          GITHUB_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
         run: |
           output=$(python exfor_trans.py)
