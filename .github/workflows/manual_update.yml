@@ -30,6 +30,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
+      - uses: fregante/setup-git-user@v2
+
       - name: setup python
         uses: actions/setup-python@v5
         with:
