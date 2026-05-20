@@ -30,9 +30,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      # fregante/setup-git-user@v2 -> Pin to v2.0.2
       - name: setup git user
-        uses: fregante/setup-git-user@60ea110c6d66e7b7cd768a834161f3640b6e1595
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       # actions/setup-python@v5 -> Pin to v5.1.0
       - name: setup python
