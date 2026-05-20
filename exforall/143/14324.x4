@@ -1,12 +1,12 @@
-ENTRY            14324   20190306   20190813   20190812       1449
-SUBENT        14324001   20190306   20190813   20190812       1449
-BIB                 11         32
+ENTRY            14324   20250707   20250828   20250828       1522
+SUBENT        14324001   20250707   20250828   20250828       1522
+BIB                 11         33
 TITLE      Neutron cross-section measurements on structural
            materials at ORELA
 AUTHOR     (K.H.Guber,P.E.Koehler,D.Wiarda,J.A.Harvey)
 REFERENCE  (J,KPS,59,1685,2011)
            #doi:10.3938/jkps.59.1685
-           (C,2008INTLAK,,FP501,2008)  Preliminary results.
+           (C,2008INTLAK,,(FP501),2008)  Preliminary results.
 INSTITUTE  (1USAORL)
 FACILITY   (LINAC,1USAORL) ORELA
 DETECTOR   (GLASD,SCIN) The neutron detector was an 11.1 cm
@@ -25,7 +25,7 @@ METHOD     (TRN,PHWT) Capture and transmission measurements for
            range from 10 keV to 600 keV. The transmission data
            were measured at the 79.815 m flight station. The
            neutron capture experiments were performed at the 40
-           m flight station of orela utilizing flight paths 6
+           m flight station of ORELA utilizing flight paths 6
            and 7. the employed experimental technique was the
            pulse-height-weighting method.
 ERR-ANALYS (ERR-S) Statistical errors only.
@@ -33,9 +33,10 @@ STATUS     (APRVD) Approved by K. Guber on June 26, 2015.
 HISTORY    (20150602C) BP
            (20170625A) Addition of subentries 6, 9, 10, 12
            (20190306A) BP: Subentries 4-5 target thickness update.
-ENDBIB              32
+           (20250706U) OS. Minor correction in REFERENCE
+ENDBIB              33
 NOCOMMON             0          0
-ENDSUBENT           35
+ENDSUBENT           36
 SUBENT        14324002   20150602   20170504   20170503       1420
 BIB                  4         25
 REACTION   (24-CR-0(N,TOT),,TRN)
